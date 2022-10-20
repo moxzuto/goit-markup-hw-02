@@ -123,6 +123,10 @@ body {
   background: #2f303a;
 }
 
+.fotter-address {
+  font-style: normal;
+}
+
 .footer-logo {
   font-family: "Raleway" sans-serif;
   font-style: normal;
