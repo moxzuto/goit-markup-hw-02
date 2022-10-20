@@ -1,8 +1,8 @@
 /* General */
 
 :root {
-    --main-color: #212121;
-    --second-color: #757575;
+  --main-color: #212121;
+  --second-color: #757575;
 }
 
 .body {
@@ -36,7 +36,7 @@
 }
 
 .web-style {
-    color: #2196F3;
+  color: #2196f3;
 }
 
 .header-active-link:hover {
@@ -120,7 +120,7 @@
 /*Footer*/
 
 .footer {
-    background: #2F303A;
+  background: #2f303a;
 }
 
 .footer-logo {
@@ -144,5 +144,31 @@
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
-  color: #FFFFFF99;
+  color: #ffffff99;
+}
+
+/* PORTFOLIO */
+
+.portfolio-main-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.03em;
+  color: var(--main-color);
+}
+
+.portfolio-topic-text {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+  color: var(--main-color);
+}
+
+.portfolio-paragraph {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  color: var(--second-color);
 }
