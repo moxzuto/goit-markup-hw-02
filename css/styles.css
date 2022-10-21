@@ -152,7 +152,6 @@ body {
 
 /* PORTFOLIO */
 
-
 .portfolio-topic-text {
   font-weight: 700;
   font-size: 18px;
@@ -175,7 +174,7 @@ body {
   letter-spacing: 0.03em;
   color: var(--main-color);
 }
-  
+
 .portfolio-button-text:hover {
   color: #2196f3;
 }
