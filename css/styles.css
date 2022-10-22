@@ -29,7 +29,6 @@ body {
   color: var(--main-color);
 }
 
-
 .current {
   color: #2196f3;
 }
@@ -46,7 +45,7 @@ body {
   color: #2196f3;
 }
 
-.header-active-link:hover {
+.header-active-link:focus {
   color: #2196f3;
 }
 
@@ -80,6 +79,12 @@ body {
   font-size: 16px;
   line-height: calc(30 / 16);
   color: var(--accent-color);
+  background-color: #2196f3;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  background-color: #188ce8;
 }
 
 /* Main */
@@ -163,7 +168,10 @@ body {
   color: #2196f3;
 }
 
-.footer-contacts:hover {
+.footer-contacts:hover,
+.footer-map:hover,
+.footer-contacts:focus,
+.footer-map:focus {
   color: #2196f3;
 }
 
@@ -189,13 +197,16 @@ body {
   font-family: inherit;
   cursor: pointer;
   font-weight: 500;
+  font-size: 16px;
   line-height: 26px;
   letter-spacing: 0.03em;
   color: var(--main-color);
 }
 
-.portfolio-button-text:hover {
+.portfolio-button-text:hover,
+.portfolio-button-text:focus {
   color: #ffffff;
+  background-color: #2196f3;
 }
 
 .visually-hidden-portfolio {
