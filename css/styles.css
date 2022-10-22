@@ -9,7 +9,7 @@
 body {
   font-size: 14px;
   font-family: "Roboto", sans-serif;
-  font-family: "Raleway" sans-serif;
+  background-color: #ffffff;
 }
 
 .link {
@@ -29,8 +29,13 @@ body {
   color: var(--main-color);
 }
 
+
+.current {
+  color: #2196f3;
+}
+
 .header-logo {
-  font-family: "Raleway" sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: calc(31 / 26);
@@ -69,6 +74,8 @@ body {
 }
 
 .hero-button {
+  font-family: inherit;
+  cursor: pointer;
   font-weight: 700;
   font-size: 16px;
   line-height: calc(30 / 16);
@@ -118,8 +125,6 @@ body {
   color: var(--second-color);
 }
 
-
-
 /*Footer*/
 
 .footer {
@@ -131,7 +136,7 @@ body {
 }
 
 .footer-logo {
-  font-family: "Raleway" sans-serif;
+  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
@@ -155,13 +160,12 @@ body {
 }
 
 .footer-map:hover {
-   color:#2196f3;
+  color: #2196f3;
 }
 
 .footer-contacts:hover {
   color: #2196f3;
 }
-
 
 /* PORTFOLIO */
 
@@ -182,6 +186,8 @@ body {
 }
 
 .portfolio-button-text {
+  font-family: inherit;
+  cursor: pointer;
   font-weight: 500;
   line-height: 26px;
   letter-spacing: 0.03em;
@@ -189,7 +195,7 @@ body {
 }
 
 .portfolio-button-text:hover {
-  color: #2196f3;
+  color: #ffffff;
 }
 
 .visually-hidden-portfolio {
